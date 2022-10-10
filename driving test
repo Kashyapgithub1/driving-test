@@ -1,7 +1,10 @@
 age = int(input("enter your age: "))
-if age>18:
-    print("you can drive!")
-elif age == 18:
-    print("Come and give driving test physically!")
+if 7 <= age <= 100:
+    if age>18:
+        print("you can drive!")
+    elif age == 18:
+        print("Come and give driving test physically!")
+    else:
+        print("Can't drive!")
 else:
-    print("Can't drive!")
+    print("Wrong Age!!")
